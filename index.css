@@ -1,0 +1,193 @@
+body {
+    max-width: 80%;
+    margin: 0px auto;
+    height: 100px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    padding: 10px 0;
+    color: #2c553c;
+    margin: 5%;
+    text-decoration: none;
+}
+
+.color1 {
+    background-color: #98dbc6;
+}
+
+.color2 {
+    background-color:#5bc8ac;
+}
+
+.color3 {
+    background-color: #e6d72a;
+}
+
+.color-container,
+.font-container,
+.style-container,
+.button-container {
+    border: 1px solid #2c553c;
+    margin: 10px auto;
+    padding: 20px;
+    width: 100%;
+}
+
+.color1,
+.color2,
+.color3 {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    height: 100px;
+}
+
+.main-font{
+    font-size: large;
+}
+.bold-font {
+    font-weight: bold;
+}
+.italic-font {
+    font-style: italic;
+}
+
+.font-style {
+    display: inline-block;
+    width: 47%;
+    text-align: left;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.roboto {
+    font-family: 'Roboto', 'serif';
+}
+
+.belloto {
+    font-family: 'Bellota', 'sans-serif', cursive;
+}
+
+.nunito {
+    font-family: 'Nunito', 'serif';
+}
+
+.ebgaramond {
+    font-family: 'EB Garamond', 'serif';
+}
+
+#text-styles {
+    font-family: 'Nunito', 'serif';
+}
+
+.style-container h1 {
+    font-family: 'Nunito', 'serif';
+    font-weight: 700;
+    font-size: 26px;
+
+}
+
+.style-container h2 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 500 (bold);
+    font-size: 18px;
+}
+
+.style-container p {
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.button-style {
+    width: 100%;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    margin: 4%;
+    font-weight: bold;
+}
+
+#button1 {
+    border-radius: 5px;
+    background-color: #1BAB51;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+}
+
+#button1:hover {
+    background-color: #199D4A;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;    
+}
+
+#button2 {
+    background-color: #21D5B0;
+    color: white;
+    border-radius: 50px;
+    text-transform: uppercase;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+}
+
+#button2:hover {
+    color: red;
+    background-color: #E9FB0B;
+    letter-spacing: 1px;
+    width: 120px;
+    cursor: pointer;
+    text-shadow: pink;
+    transition: all 0.4s ease 0s;
+}
+
+#button3 {
+    background-color: #B6BEB4;
+    border: 2px solid #227D07;
+    color: #227D07;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#button3:hover {
+    border: 5px solid black;
+    letter-spacing: 1px;
+    width: 150px;
+    border-radius: 50px;
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+    font-weight: bold;
+}
